@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  page-factory-nop-commerce-proj5</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>page-factory-nop-commerce-proj5</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 01:22:26 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>23 seconds (23787 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.demo.testsuite.CellPhonePageTest.verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully()'><b>verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully</b><br>Test class: com.nopcommerce.demo.testsuite.CellPhonePageTest<br/>
+<a href="#Output-1957282992" onClick='toggleBox("Output-1957282992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1957282992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1957282992">
+on Electronics tab[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[2]/ul[1]/li[2]/a[1]]<br/>
+click on Cell Phone[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[2]/ul[1]/li[2]/ul[1]/li[2]/a[1]]<br/>
+verify text Cell Phone[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //h1[contains(text(),'Cell phones')]]<br/>
+clikc on listview of cellphone[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //a[contains(text(),'List')]]<br/>
+click on nokia lumia product[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/h2[1]/a[1]]<br/>
+verifying product price of  nokia lumia product[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //span[@id='price-value-20']]<br/>
+changing Quantity of product2for[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[2]/h2[1]/a[1]]<br/>
+click on add to cart[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[@id='add-to-cart-button-20']]<br/>
+verify massage product add to cart[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[@id='bar-notification']/div[1]/p[1]]<br/>
+click on cross button[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[@id='bar-notification']/div[1]/span[1]]<br/>
+mousehoover to shopping cart[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //span[contains(text(),'Shopping cart')]]<br/>
+click on go to cart[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[contains(text(),'Go to cart')]]<br/>
+verify text ShoppingCart[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //h1[contains(text(),'Shopping cart')]]<br/>
+click on terms and condition [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: termsofservice]<br/>
+click on checkout  [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: checkout]<br/>
+verify welcome text on page[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]<br/>
+click on register button[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[contains(text(),'Register')]]<br/>
+first name Siddh[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: FirstName]<br/>
+Last name thak[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: LastName]<br/>
+Email is siddh.thakker[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: Email]<br/>
+Password is  siddhthak12[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: Password]<br/>
+Confirm password is  siddhthak12[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //input[@id='ConfirmPassword']]<br/>
+click on Register [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[@id='register-button']]<br/>
+Your registration completed [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //div[contains(text(),'Your registration completed')]]<br/>
+click on continue [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //a[contains(text(),'Continue')]]<br/>
+click on terms and condition [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: termsofservice]<br/>
+click on checkout  [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: checkout]<br/>
+first name Siddh[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_FirstName]<br/>
+last name thak[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_LastName]<br/>
+Country name is  United States[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_CountryId]<br/>
+State name is  Alaska[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_StateProvinceId]<br/>
+ City name is  naple[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_City]<br/>
+Address 1 is  123 cordin view[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_Address1]<br/>
+Zip code is 1528[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_ZipPostalCode]<br/>
+Phone No is  45829011[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: BillingNewAddress_PhoneNumber]<br/>
+Click on continue[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[1]/div[2]/div[1]/button[4]]<br/>
+click on 2nd day option[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> css selector: #shippingoption_2]<br/>
+click on countinue tab [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[3]/div[2]/form[1]/div[2]/button[1]]<br/>
+click on paymentmethod[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> id: paymentmethod_1]<br/>
+click on continue [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[4]/div[2]/div[1]/button[1]]<br/>
+mastercard Visais selected[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //select[@id='CreditCardType']]<br/>
+Enter name   H.M.zoe[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //input[@id='CardholderName']]<br/>
+Card No is  4111111111111111[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //input[@id='CardNumber']]<br/>
+Enter Month is  01[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //select[@id='ExpireMonth']]<br/>
+Enter year is  2025[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //select[@id='ExpireYear']]<br/>
+Enter card code is  123[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //input[@id='CardCode']]<br/>
+click on continue [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[5]/div[2]/div[1]/button[1]]<br/>
+verify payment method is credit card [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //span[contains(text(),'Credit Card')]]<br/>
+verify shipping method is 2nd day [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //body/div[6]/div[3]/div[1]/div[1]/div[1]/div[2]/ol[1]/li[6]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/ul[1]/li[1]/span[2]]<br/>
+Total price $698 [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //tr[@class='order-total']/td[2]/span]<br/>
+click on continue [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[contains(text(),'Confirm')]]<br/>
+verify text Thank You [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //h1[contains(text(),'Thank you')]]<br/>
+Your order has been successfully processed![[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //strong[contains(text(),'Your order has been successfully processed!')]]<br/>
+click on continue [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //button[contains(text(),'Continue')]]<br/>
+welcome to our store[[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //h2[contains(text(),'Welcome to our store')]]<br/>
+click on log out [[ChromeDriver: chrome on WINDOWS (241627b8c3736ec82db85245aed11860)] -> xpath: //a[contains(text(),'Log out')]]<br/>
+Click to see screenshot<br/>
+<a target = "_blank" href=C:\Users\hvtha\page-factory-nop-commerce-proj5/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyTue_Dec_13_01_22_49_GMT_2022.jpg>Screenshot</a><br/>
+<br><br/>
+<br><br/>
+<a target = "_blank" href=C:\Users\hvtha\page-factory-nop-commerce-proj5/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyTue_Dec_13_01_22_49_GMT_2022.jpg><img src=C:\Users\hvtha\page-factory-nop-commerce-proj5/test-output/html/verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfullyTue_Dec_13_01_22_49_GMT_2022.jpg height=200 width=200></img></a><br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>com.nopcommerce.demo.testsuite.CellPhonePageTest@2781e022</td></tr>
+</table><p>
+</body>
+</html>

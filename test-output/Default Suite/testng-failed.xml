@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="page-factory-nop-commerce-proj5(failed)">
+    <classes>
+      <class name="com.nopcommerce.demo.testsuite.CellPhonePageTest">
+        <methods>
+          <include name="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully"/>
+          <include name="objectMethod"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuite.CellPhonePageTest -->
+    </classes>
+  </test> <!-- page-factory-nop-commerce-proj5(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
